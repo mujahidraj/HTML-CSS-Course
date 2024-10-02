@@ -1,0 +1,19 @@
+.Model{
+    font-family: arial;
+    font-size: 30px;
+    padding-left: 60px;
+
+
+}
+
+.underline{
+
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.underline2{
+    font-family: arial;
+    font-size: 15px;
+    text-decoration: underline;
+}
