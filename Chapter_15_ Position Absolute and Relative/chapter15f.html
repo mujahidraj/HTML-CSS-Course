@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15f</title>
+
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .product-img-container {
+        width: 300px;
+        height: 300px;
+
+        position: relative;
+      }
+
+      .product-img {
+        width: 300px;
+      }
+
+      .discount-tag {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+
+      .bottom-overlay {
+        width: 300px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.7);
+
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-to-cart-button {
+        font-family: Arial;
+        font-size: 12px;
+        
+        background-color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="product-img-container">
+      <img class="product-img" src="product-img-1.jpg">
+
+      <div class="discount-tag">
+        20% OFF
+      </div>
+
+      <div class="bottom-overlay">
+        <button class="add-to-cart-button">  
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
