@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14f</title>
+
+    <style>
+      p {
+        margin: 0;
+        font-family: Arial;
+      }
+
+      .first-left {
+        background-color: rgb(32,34,37);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 80px;
+        padding-top: 20px;
+      }
+
+      .profile-img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .second-left {
+        background-color: rgb(47,49,54);
+        color: white;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 80px;
+
+        width: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .info-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      .info {
+        font-weight: bold;
+      }
+
+      .plus-sign {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(160, 160, 160);
+      }
+
+      .new-videos,
+      .updates,
+      .faq {
+        margin-bottom: 20px;
+        color: rgb(160, 160, 160);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="first-left">
+      <img class="profile-img" src="AAA_0037.JPG">
+      <img class="profile-img" src="AAA_0117.JPG">
+      <img class="profile-img" src="2023_09_20_11_36_IMG_4460.JPG">
+    </div>
+
+    <div class="second-left">
+      <div class="info-container">
+        <p class="info">
+          INFO
+        </p>
+
+        <div class="plus-sign">
+          &#43;
+        </div>
+      </div>
+
+      <p class="new-videos">
+        &#35; new-videos
+      </p>
+
+      <p class="updates">
+        &#35; updates
+      </p>
+
+      <p class="faq">
+        &#35; faq
+      </p>
+    </div>
+  </body>
+</html>
