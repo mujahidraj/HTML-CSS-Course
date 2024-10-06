@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14e</title>
+
+    <style>
+      body {
+        height: 3000px;
+        background-color: rgb(245, 245, 245);
+      }
+
+      .header {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+
+      .left-side {
+        display: flex;
+        align-items: center;
+      }
+
+      .profile-img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+
+      .profile-name {
+        font-family: Arial;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .add-friend-button {
+        background-color: rgb(19, 119, 249);
+        color: white;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-side">
+        <img class="profile-img" src="AAA_0037.JPG">
+        <p class="profile-name">
+          Mujahid Raj
+        </p>
+      </div>
+
+      <div class="right-side">
+        <button class="add-friend-button">
+          Add Friend
+        </button>
+
+        <button class="message-button">
+          Message
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
