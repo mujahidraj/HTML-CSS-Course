@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13g</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+      .container {
+        width: 420px;
+      }
+      .tweet {
+        display: flex;
+      }
+
+      .tweet-texts {
+        width: 350px;
+        margin-left: 15px;
+      }
+
+      .tweeter-profile-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+      }
+
+      .name-and-username {
+        font-family: "Roboto", Arial;
+        font-weight: bold;
+      }
+
+      .username {
+        font-weight: normal;
+        color: gray;
+      }
+
+      .tweet-post {
+        font-family: "Roboto", Arial;
+      }
+
+      .tutorial-link-container {
+        display: flex;
+        justify-content: end;
+        width: 415px;
+      }
+
+      .link-preview {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        box-shadow: 0 0 3px rgba(220, 220, 220);
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+
+      .preview-img {
+        width: 100px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background: rgba(220, 220, 220);
+      }
+
+      .url-and-title {
+        font-family: "Roboto", Arial;
+        width: 225px;
+      }
+
+      .url {
+        font-size: 14px;
+        color: gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="tweet">
+        <img class="tweeter-profile-img" src="AAA_0037.JPG">
+        <div class="tweet-texts">
+          <div class="name-and-username">
+            supersimple.dev 
+            <span class="username">
+              @SuperSimpleDev
+            </span>
+          </div>
+          <div class="tweet-post">
+            What is backend web development? A complete overview. New video is up!
+          </div>
+        </div>
+      </div>
+      <div class="tutorial-link-container">
+        <div class="link-preview">
+          <div class="preview-img"></div>
+          <div class="url-and-title">
+            <div class="url">
+              youtube.com
+            </div>
+            <div class="title">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
