@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 14d</title>
+
+    <style>
+      .right-sidebar {
+        background-color: green;
+        color: white;
+        
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+
+      .entire-page-overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .modal {
+        background-color: white;
+        font-family: Arial;
+        width: 250px;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+      .modal-title {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .this-is-modal {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="right-sidebar">
+      right-sidebar
+    </div>
+
+    <div class="entire-page-overlay">
+      <div class="modal">
+        <p class="modal-title">
+          Modal Title
+        </p>
+
+        <p class="this-is-modal">
+          This is a modal
+        </p>
+
+        <button class="close-button">
+          close
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
