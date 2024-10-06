@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 12f</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .container {
+        background-color: rgb(129, 62, 192);
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .home {
+        color: white;
+        width: 80px;
+        font-family: Arial;
+        font-weight: bold;
+      }
+
+      .search {
+        flex: 1;
+        margin-left: 80px;
+        margin-right: 80px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .searchbox {
+        max-width: 600px;
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+        border: none;
+        padding-left: 10px;
+      }
+
+      .download {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+      }
+
+      .download-button {
+        background-color: rgb(129, 62, 192);
+        color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="home">
+        Home
+      </div>
+
+      <div class="search">
+        <input class="searchbox" type="text" placeholder="Search">
+      </div>
+
+      <div class="download">
+        <button class="download-button">
+          Download
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
